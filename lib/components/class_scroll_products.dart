@@ -13,7 +13,7 @@ class ScrollProducts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 113,
+      height: 121,
       child: ListView.separated(
         itemCount: products.length,
         scrollDirection: Axis.horizontal,
@@ -38,6 +38,7 @@ class ScrollProducts extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 8),
               Center(
                 child: Text(
                   productsIndex.title,

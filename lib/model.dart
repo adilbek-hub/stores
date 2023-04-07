@@ -1,6 +1,3 @@
-import 'dart:convert';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 ///////////////////////////////////////////
@@ -31,6 +28,7 @@ class Products {
 class Bestseller {
   Bestseller({
     required this.image,
+    required this.image2,
     required this.icon1,
     required this.icon2,
     required this.icon3,
@@ -40,7 +38,7 @@ class Bestseller {
     required this.text4,
     required this.text5,
   });
-  final String image;
+  final String image, image2;
   final IconData icon1;
   final IconData icon2;
   final IconData icon3;
@@ -54,7 +52,8 @@ class Bestseller {
 ////////////////////////////////////////////////////////
 List<Bestseller> items = [
   Bestseller(
-    image: 'assets/images/unsplash1.jpg',
+    image: 'assets/images/Union.png',
+    image2: 'assets/images/Union.png',
     icon1: Icons.favorite,
     icon2: Icons.share,
     icon3: Icons.bookmark,
@@ -65,15 +64,64 @@ List<Bestseller> items = [
     text5: 'Rating 1',
   ),
   Bestseller(
-    image: 'assets/images/unsplash1.jpg',
+    image: 'assets/images/Union.png',
+    image2: 'assets/images/Union.png',
     icon1: Icons.favorite,
     icon2: Icons.share,
     icon3: Icons.bookmark,
-    text1: 'Item 2',
-    text2: 'Description 2',
-    text3: 'Category 2',
-    text4: 'Price 2',
-    text5: 'Rating 2',
+    text1: 'Item 1',
+    text2: 'Description 1',
+    text3: 'Category 1',
+    text4: 'Price 1',
+    text5: 'Rating 1',
+  ),
+  Bestseller(
+    image: 'assets/images/Union.png',
+    image2: 'assets/images/Union.png',
+    icon1: Icons.favorite,
+    icon2: Icons.share,
+    icon3: Icons.bookmark,
+    text1: 'Item 1',
+    text2: 'Description 1',
+    text3: 'Category 1',
+    text4: 'Price 1',
+    text5: 'Rating 1',
+  ),
+  Bestseller(
+    image: 'assets/images/Union.png',
+    image2: 'assets/images/Union.png',
+    icon1: Icons.favorite,
+    icon2: Icons.share,
+    icon3: Icons.bookmark,
+    text1: 'Item 1',
+    text2: 'Description 1',
+    text3: 'Category 1',
+    text4: 'Price 1',
+    text5: 'Rating 1',
+  ),
+  Bestseller(
+    image: 'assets/images/Union.png',
+    image2: 'assets/images/Union.png',
+    icon1: Icons.favorite,
+    icon2: Icons.share,
+    icon3: Icons.bookmark,
+    text1: 'Item 1',
+    text2: 'Description 1',
+    text3: 'Category 1',
+    text4: 'Price 1',
+    text5: 'Rating 1',
+  ),
+  Bestseller(
+    image: 'assets/images/Union.png',
+    image2: 'assets/images/Union.png',
+    icon1: Icons.favorite,
+    icon2: Icons.share,
+    icon3: Icons.bookmark,
+    text1: 'Item 1',
+    text2: 'Description 1',
+    text3: 'Category 1',
+    text4: 'Price 1',
+    text5: 'Rating 1',
   ),
 ];
 /////////////////////////////////////////////////////
